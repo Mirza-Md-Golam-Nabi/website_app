@@ -3,7 +3,7 @@
 1. Clone the repository
 
 ```sh
-https://github.com/Mirza-Md-Golam-Nabi/website_app.git
+git clone https://github.com/Mirza-Md-Golam-Nabi/website_app.git
 ```
 
 2. Goto project folder
@@ -46,6 +46,18 @@ php artisan migrate --seed
 
 6. Serve the application on port **8001**
    Make sure to run the application on port **8001**
+
+```sh
+npm install
+```
+
+and
+
+```sh
+npm run build
+```
+
+and
 
 ```sh
 php artisan serve --port=8001
